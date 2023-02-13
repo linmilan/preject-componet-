@@ -1,0 +1,69 @@
+.portfolio_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+}
+
+.portfolio_item {
+    background: var(--color-bg-variant);
+    /* 里面图面占位置大小 */
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+/* 试调 */
+/* .portfolio_item:nth-child(1) {
+    grid-column: span 2;
+} */
+
+.portfolio_item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio_item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 1.5rem;
+}
+
+/* 调节按钮和title间的间距 */
+.portfolio_item h3 {
+    margin: 1rem 0 1rem;
+}
+
+/* 按钮 */
+.portfolio_item-cta {
+    /* button居中 */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    /* margin-bottom: 0.1rem ; */
+    
+    
+}
+
+/* MEDIA QUERIES (MEDIUM QUVICES) */
+@media screen and (max-width: 1024px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    
+}
+
+/* MEDIA QUERIES (SMALL QUVICES) */
+
+@media screen and (max-width: 600px) {
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+}
