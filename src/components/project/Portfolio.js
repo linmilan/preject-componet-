@@ -51,6 +51,13 @@ const data = [
         github:'https://github.com',
         demo:'https://dribbble.com'
     },
+    {
+        id:6,
+        image:IMG6,
+        title:'balance ball',
+        github:'https://github.com',
+        demo:'https://dribbble.com'
+    },
 ]
 
 const Portfolio =()=>{
