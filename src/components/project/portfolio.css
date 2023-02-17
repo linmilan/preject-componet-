@@ -59,7 +59,6 @@ img {
 }
 
 /* MEDIA QUERIES (SMALL QUVICES) */
-
 @media screen and (max-width: 600px) {
     .portfolio_container {
         grid-template-columns: 1fr;
