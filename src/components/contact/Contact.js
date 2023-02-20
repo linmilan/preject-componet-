@@ -14,19 +14,19 @@ const Contact =()=>{
             <div className="container contact_container">
                 <div className="contact_options">
                     <article className="contact_option">
-                        <MdOutlineEmail  className="contact_option_icon"/>
+                        <MdOutlineEmail  className="contact_option-icon"/>
                         <h4>Email</h4>
                         <h5>linxiaoting100@gmail.com</h5>
                         <a href="mailto:linxiaoting100@gmail.com" target='_blank'>Send me message</a>
                     </article>
                     <article className="contact_option">
-                        <RiMessageLine className="contact_option_icon"/>
+                        <RiMessageLine className="contact_option-icon"/>
                         <h4>Message</h4>
                         <h5>sendmemessage</h5>
                         <a href="#" target='_blank'>Send me message</a>
                     </article>
                     <article className="contact_option">
-                        <BsWhatsapp className="contact_option_icon"/>
+                        <BsWhatsapp className="contact_option-icon"/>
                         <h4>Whatsapp</h4>
                         <h5>+0039 XXXX</h5>
                         <a href="https://api.whatsapp.com/send?phont+0039340998" target='_blank'>Send me message</a>
@@ -36,7 +36,7 @@ const Contact =()=>{
                 <form action="">
                     <input type='text' name='name' placeholder='Your Full Name' required />
                     <input type='email' name='email' placeholder='Your Email' required />
-                    <textarea name='message' row='7' placeholder='Your Message' required ></textarea>
+                    <textarea name='message' rows='7' placeholder='Your Message' required ></textarea>
                     <button type='submit' className="btn btn-primary">Send Message</button>
                 </form>
             </div>
