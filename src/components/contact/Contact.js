@@ -32,22 +32,26 @@ const Contact =()=>{
             <div className="container contact_container">
                 <div className="contact_options">
                     <article className="contact_option">
-                        <MdOutlineEmail  className="contact_option-icon"/>
-                        <h4>Email</h4>
-                        <h5>linxiaoting100@gmail.com</h5>
-                        <a href="mailto:linxiaoting100@gmail.com" target='_blank' >Send me message</a>
+                        <a href="mailto:linxiaoting100@gmail.com" target='_blank' >
+                            <MdOutlineEmail  className="contact_option-icon"/>
+                            <h4>Email</h4>
+                        </a>
+                        {/* <h5>linxiaoting100@gmail.com</h5> */}
+                        {/* <a href="mailto:linxiaoting100@gmail.com" target='_blank' >Send me message</a> */}
                     </article>
                     <article className="contact_option">
-                        <RiMessageLine className="contact_option-icon"/>
-                        <h4>Message</h4>
-                        <h5>sendmemessage</h5>
-                        <a href="#" target='_blank'>Send me message</a>
+                        <a href="#" target='_blank'>
+                            <RiMessageLine className="contact_option-icon"/>
+                            <h4>Message</h4>
+                            {/* <h5>sendmemessage</h5> */}
+                        </a>
                     </article>
                     <article className="contact_option">
-                        <BsWhatsapp className="contact_option-icon"/>
-                        <h4>Whatsapp</h4>
-                        <h5>+0039 XXXX</h5>
-                        <a href="https://api.whatsapp.com/send?phont+0039340998" target='_blank'>Send me message</a>
+                        <a href="https://api.whatsapp.com/send?phont+0039340998" target='_blank'>
+                            <BsWhatsapp className="contact_option-icon"/>
+                            <h4>Whatsapp</h4>
+                            {/* <h5>+0039 XXXX</h5> */}
+                        </a>
                     </article>
                 </div>
                 {/* END OF CONTACT OPTIONS */}
