@@ -5,7 +5,7 @@ import { FaTiktok } from 'react-icons/fa';
 
 const HeaderSocials = ()=>{
     return(
-        <div>
+        <div className='header_socials'>
             <a href='https://linkedin.com' target='_blank'><FaLinkedin /></a>
             <a href='https://github.com' target='_blank'><FaGithub /></a>
             <a href='https://tiktok.com' target='_blank'><FaTiktok /></a>

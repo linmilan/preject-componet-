@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 :root {
-  --color--bg:#1f1f38;
+  --color-bg:#1f1f38;
 
   --color-bg-variant:#2c2c6c;
   
@@ -38,7 +38,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color--bg);
+  background: var(--color-bg);
   
   color: var(--color-white);
   line-height: 1.7;
@@ -106,12 +106,12 @@ a:hover {
 
 .btn:hover {
   background: var(--color-white);
-  color: var(--color--bg);
+  color: var(--color-bg);
   border-color: transparent;
 }
 .btn-primary {
   background: var(--color-primary) ;
-  color: var(--color--bg);
+  color: var(--color-bg);
 }
 
 img {
